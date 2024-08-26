@@ -1,0 +1,128 @@
+@media(max-width:1200px){
+    html{
+        font-size: 15px;
+    }
+}
+@media(max-width:992px){
+    .toggle{
+        display: block;
+        font-size: 25px;
+        color: #ef3f4f;
+    }
+    .nav-right .contact-btn{
+        display: none;
+      
+    }
+    .main-nav ul {
+        align-items: flex-start;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .main-nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100vh;
+        background: #fff;
+        padding: 70px 40px;
+        transform: translateX(100%);
+        transition: all 0.4s linear;
+
+}
+    .menuToggle .main-nav{
+        transform: translateX(0%);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+    .close {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        font-size: 22px;
+        color: #ef3f4f;
+    }
+    .choose-wrap {
+        padding: 30px 20px;
+        margin-bottom: 0;
+    }
+    .why-choose .col-lg-4 {
+        margin: 12px 0;
+    }
+    .why-choose .row {
+        justify-content: center;
+    }
+}
+@media(max-width:850px){
+    .service-wrap .row {
+        flex-direction: column;
+    }
+    .service-wrap .row .col-md-6{
+        width: 100%;
+    }
+    .services-img {
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .sec-wrap .row{
+        flex-direction: column-reverse;
+    }
+    .get-started .row {
+        flex-direction: column;
+    }
+    .get-started .row .col-md-6{
+        width: 100%;
+    }
+    .contact-img {
+        height: 350px;
+    }
+    .contact-img img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    .ptb-70 {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width:767px){
+    .site-logo img {
+        max-width: 160px;
+    }
+    .main-nav {
+        width: 100%;
+    }
+    .banner-text h1 {
+        font-size: 3rem;
+    }
+    .copy-wrap {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 10px;
+    }
+    .copy-wrap p {
+        text-align: center;
+    }
+}
+@media(max-width:575px){
+    html{
+        font-size: 14px;
+    }
+    .site-banner {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media(max-width:375px){
+    .contact-img {
+        height: 300px;
+    }
+    .services-img {
+        height: 200px;
+    }
+}
