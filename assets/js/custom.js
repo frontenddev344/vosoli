@@ -9,6 +9,6 @@ $(window).scroll(function(){
 $('.toggle').click(function(){
     $('body').addClass("menuToggle");
 });
-$('.close').click(function(){
+$('.close, .nav-link').click(function(){
     $('body').removeClass("menuToggle");
 });
