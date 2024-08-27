@@ -84,6 +84,26 @@
     .ptb-70 {
         padding: 50px 0;
     }
+    .privacy-banner-text h1 {
+        font-size: 2.2rem;
+    }
+    .privacy-banner .row {
+        flex-direction: column-reverse;
+    }
+    .privacy-banner .row .col-md-6{
+        width: 100%;
+    }
+    .privacy-banner-img {
+        margin-bottom: 40px;
+    }
+    .privacy-banner-img::before {
+        top: 10px;
+        left: 10px;
+    }
+    .privacy-banner {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
 }
 
 @media(max-width:767px){
@@ -117,6 +137,9 @@
         padding-left: 5%;
         padding-right: 5%;
     }
+    .privacy-banner-img {
+        height: 300px;
+    }
 }
 @media(max-width:375px){
     .contact-img {
@@ -124,5 +147,8 @@
     }
     .services-img {
         height: 200px;
+    }
+    .privacy-banner-text h1 {
+        font-size: 2.1rem;
     }
 }
