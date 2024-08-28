@@ -34,6 +34,12 @@ html{
 .ptb-70{
     padding: 70px 0;
 }
+.pt-70{
+    padding-top: 100px;
+}
+.pb70{
+    padding-bottom: 70px;
+}
  .container{
      max-width: 1320px;
      padding: 0 20px;
@@ -106,7 +112,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 170px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 .banner-text {
     max-width: 1100px;
@@ -144,6 +150,7 @@ nav {
     max-width: 800px;
     margin: 0 auto;
     margin-bottom: 50px;
+    /* margin-top: 50px; */
 }
 .site-heading h2 {
     font-size: 2.5rem;
@@ -434,3 +441,9 @@ list-style: disc;
     padding: 10px 0;
 }
 /* privacy policy page css end */
+/* #whyChoose{
+    padding-top: 150px;
+}
+#ourServices{
+    margin: 50px 0;
+} */

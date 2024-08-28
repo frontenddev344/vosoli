@@ -124,6 +124,15 @@
     .copy-wrap p {
         text-align: center;
     }
+    .pt-70 {
+        padding-top: 60px;
+    }
+    .pb70{
+        padding-bottom: 60px;
+    }
+    .site-heading {
+        margin-bottom: 30px;
+    }
 }
 @media(max-width:575px){
     html{
